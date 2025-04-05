@@ -3,8 +3,3 @@
   tasks: # task=module=collection
   - name: ping the server
     ansible.builtin.ping:
-
-- name: Install ntpdate
-  ansible.builtin.package:
-    name: ntpdate
-    state: present

@@ -1,6 +1,6 @@
 - name: playbok hello
   hosts:  web
   tasks:
-  - name: print hellow
+  - name: world print
     ansible.builtin.debug:
-    msg:  "hello"
+    msg:  "hellow"

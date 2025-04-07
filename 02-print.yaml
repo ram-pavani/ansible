@@ -1,0 +1,6 @@
+- name: playbok hello
+  hosts:  web
+  tasks:
+  - name: print hellow
+    ansible.builtin.debug:
+    meg:  "hello"

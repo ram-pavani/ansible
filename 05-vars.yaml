@@ -2,10 +2,10 @@
   hosts:  local
   connection: local
   vars:
-    course: "devops with aws"
-    duration: 120hrs
-    trainer:  ram
+    COURSE: "devops with aws"
+    DURATION: 120hrs
+    TRAINER:  ram
   tasks:
   - name: print the variables
     ansible.builtin.debug:
-      msg:  "course is {{course}}, duration {{duration}}, trainer {{ram}}"
+      msg:  "course is {{COURSE}}, duration {{DURATION}}, trainer {{RAM}}"
